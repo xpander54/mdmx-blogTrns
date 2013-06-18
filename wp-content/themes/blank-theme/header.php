@@ -42,9 +42,38 @@
 
 <body <?php body_class(); ?>>
 	
+
+
 	<div id="page-wrap">
 
-		<div id="header">
-			<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
-			<div class="description"><?php bloginfo('description'); ?></div>
-		</div>
+		<nav class="menu-1">
+			<div class="menu-btn1" onclick="clicked-menu(0);" style="margin: 20px 0px 0px 35px;"></div>
+			<div class="menu-btn1" onclick="clicked-menu(1);" style="margin: 20px 0px 0px 195px;"></div>
+			<div class="menu-btn1" onclick="clicked-menu(2);" style="margin: 20px 0px 0px 345px; width:140px;"></div>
+			<div class="menu-btn1" onclick="clicked-menu(3);" style="margin: 20px 0px 0px 515px; width:130px;"></div>
+			<div class="menu-btn1" onclick="clicked-menu(4);" style="margin: 20px 0px 0px 695px;"></div>
+
+
+			<div class="menu-selector"></div>
+		</nav>
+
+
+		<div class="main-cont clear-fix">
+				
+			<section id="header" class="header">
+			
+				
+				<div class="bnr-img">
+					<!--<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>-->
+					<div class="bnr-txt">
+						<h1>Noticas de Salud </h1>
+						<div class="description"><?php bloginfo('description'); ?></div>
+					</div>
+
+				</div>
+
+			</section>
+
+
+
+		

@@ -1,6 +1,6 @@
-		<div id="footer">
+		<!--<div id="footer" class="footer">
 			&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?>
-		</div>
+		</div>-->
 
 	</div>
 

@@ -1,5 +1,14 @@
 <?php get_header(); ?>
 
+<article class="aside">
+				
+	<?php get_sidebar(); ?>
+	
+</article>
+
+
+<article class="posts post">
+	
 	<?php if (have_posts()) : ?>
 
 		<h2>Search Results</h2>
@@ -26,9 +35,12 @@
 
 	<?php else : ?>
 
-		<h2>No posts found.</h2>
+		<h2>No hay Resultados.</h2>
 
 	<?php endif; ?>
+
+</article>
+	
 
 <?php get_sidebar(); ?>
 

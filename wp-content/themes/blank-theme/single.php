@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+		
+		<a href="/index.php">&#8592; Atras</a>
 
 		<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			
@@ -18,14 +20,16 @@
 
 			</div>
 			
-			<?php edit_post_link('Edit this entry','','.'); ?>
+			<?php edit_post_link('Editar post','','.'); ?>
 			
 		</div>
 
 	<?php comments_template(); ?>
 
 	<?php endwhile; endif; ?>
-	
-<?php get_sidebar(); ?>
+
+
+
 
 <?php get_footer(); ?>
+
