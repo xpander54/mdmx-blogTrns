@@ -32,6 +32,7 @@
 	<link rel="shortcut icon" href="/favicon.ico">
 	
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/estilo.css">
 	
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
@@ -46,21 +47,31 @@
 
 	<div id="page-wrap">
 
-		<nav class="menu-1">
+        <nav class="main">
+            <ul class="menu clear-fix">
+                <li id="inicio"><a href="#">Inicio</a></li>
+                <li id="lesiones"><a href="#">Lesiones</a></li>
+                <li id="padecimientos"><a href="#">Padecimientos</a></li>
+                <li id="tratamientos"><a href="#">Tratamientos</a></li>
+                <li id="cirugia"><a href="#">Cirugía</a></li>
+                <li id="noticias"><a href="#">Noticias</a></li>
+            </ul>
+        <!--
 			<div class="menu-btn1" onclick="clicked-menu(0);" style="margin: 20px 0px 0px 35px;"></div>
 			<div class="menu-btn1" onclick="clicked-menu(1);" style="margin: 20px 0px 0px 195px;"></div>
 			<div class="menu-btn1" onclick="clicked-menu(2);" style="margin: 20px 0px 0px 345px; width:140px;"></div>
 			<div class="menu-btn1" onclick="clicked-menu(3);" style="margin: 20px 0px 0px 515px; width:130px;"></div>
 			<div class="menu-btn1" onclick="clicked-menu(4);" style="margin: 20px 0px 0px 695px;"></div>
-
+        
 
 			<div class="menu-selector"></div>
+        -->
 		</nav>
 
 
 		<div class="main-cont clear-fix">
 				
-			<section id="header" class="header">
+			<header class="main">
 			
 				
 				<div class="bnr-img">
@@ -72,7 +83,7 @@
 
 				</div>
 
-			</section>
+			</header>
 
 
 
