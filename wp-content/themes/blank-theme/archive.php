@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<section class="contenido clear-fix">
+	
 	<article class="aside">
 		
 		<?php get_sidebar(); ?>
@@ -61,6 +63,9 @@
 		<?php endif; ?>
 
 	</article>
+	
+</section>
+
 
 
 

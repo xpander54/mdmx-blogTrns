@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+
+<section class="contenido clear-fix">
+	
+	
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		
 		<a href="/index.php">&#8592; Atras</a>
@@ -29,6 +33,8 @@
 	<?php endwhile; endif; ?>
 
 
+
+</section>
 
 
 <?php get_footer(); ?>
