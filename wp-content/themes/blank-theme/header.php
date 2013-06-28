@@ -49,12 +49,12 @@
 
         <nav class="main">
             <ul class="menu clear-fix">
-                <li id="inicio"><a href="#">Inicio</a></li>
-                <li id="lesiones"><a href="#">Lesiones</a></li>
-                <li id="padecimientos"><a href="#">Padecimientos</a></li>
-                <li id="tratamientos"><a href="#">Tratamientos</a></li>
-                <li id="cirugia"><a href="#">Cirugía</a></li>
-                <li id="noticias"><a href="#">Noticias</a></li>
+                <li id="inicio"><a href="http://www.medicinadeportiva.mx">Inicio</a></li>
+                <li id="lesiones"><a href="http://www.medicinadeportiva.mx/lesiones.html">Lesiones</a></li>
+                <li id="padecimientos"><a href="http://www.medicinadeportiva.mx/padecimientos.html">Padecimientos</a></li>
+                <li id="tratamientos"><a href="http://www.medicinadeportiva.mx/tratamientos.html">Tratamientos</a></li>
+                <li id="cirugia"><a href="http://www.medicinadeportiva.mx/cirugia.html">Cirugía</a></li>
+                <li id="noticias"><a href="http://noticias.medicinadeportiva.mx">Noticias</a></li>
             </ul>
         <!--
 			<div class="menu-btn1" onclick="clicked-menu(0);" style="margin: 20px 0px 0px 35px;"></div>
