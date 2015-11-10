@@ -16,13 +16,13 @@
 
 // ** Ajustes de MySQL. Solicita estos datos a tu proveedor de alojamiento web. ** //
 /** El nombre de tu base de datos de WordPress */
-define('DB_NAME', 'mdmx');
+define('DB_NAME', 'medicina_deportiva');
 
 /** Tu nombre de usuario de MySQL */
-define('DB_USER', 'root');
+define('DB_USER', 'mdmx_db');
 
 /** Tu contraseña de MySQL */
-define('DB_PASSWORD', 'hd1412');
+define('DB_PASSWORD', '3f6N4n2U');
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
 define('DB_HOST', 'localhost');
@@ -89,4 +89,16 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+
+
+/*FTP*/
+
+define('FTP_HOST', '192.168.0.102');
+define('FTP_USER', 'medicina-deportiva');
+define('FTP_PASS', '5HQ6h5Ih');
+define('FTP_BASE' , 'www/');
+
+/*/FTP*/
+
 
